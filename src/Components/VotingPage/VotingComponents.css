@@ -1,0 +1,43 @@
+.containerVotingComponents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containerVoting {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: aqua;
+    grid-gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.containerVoting .cardVoting {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+@media (max-width:1000px) {
+    .containerVoting {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media (max-width:768px) {
+    .containerVoting {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width:500px) {
+    .containerVoting {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

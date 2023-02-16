@@ -1,0 +1,71 @@
+.continerForm {
+    width: 100%;
+    height: 100vh;
+    /* background-color: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continerForm .cardLogin {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: solid 1px #cdcdcd;
+    border-radius: 15px;
+}
+
+.continerForm .cardLogin form {
+    width: 100%;
+    height: fit-content;
+}
+
+.continerForm .cardLogin form div {
+    margin: 20px;
+
+}
+
+.continerForm .cardLogin form div label{
+    margin: 5px 0px;
+    text-align: start;
+}
+
+.continerForm .cardLogin form div input {
+    width: 100%;
+    padding: 10px;
+}
+
+.continerForm .cardLogin form div input:focus-visible {
+    border: #f79082 2px solid;
+    outline: none;
+    border-radius: 10px;
+}
+
+.continerForm .cardLogin form div label {
+    display: block;
+}
+
+.redText {
+    color: red;
+}
+
+
+.continerForm .cardLogin form input[type="submit"] {
+    padding: 10px;
+    color: #000;
+    background-color: #ffe4c4;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.continerForm .cardLogin form input[type="submit"]:hover {
+    background-color: #f79082;
+    color: #fff;
+}

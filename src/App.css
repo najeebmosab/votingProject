@@ -1,0 +1,10 @@
+.showLoginPage{
+    display: block;
+    opacity: 1;
+    transition: opacity 1s ease-in-out,display 3s ease-in-out;
+}
+.hiddenLoginPage{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out,display 3s ease-in-out;
+}
