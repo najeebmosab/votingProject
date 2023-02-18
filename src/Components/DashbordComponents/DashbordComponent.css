@@ -1,0 +1,34 @@
+.Tables {
+    width: 80%;
+    text-align: start;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+.Tables,
+thead>th {
+    text-align: start;
+    color: #000;
+    
+    
+}
+
+.Tables,
+td,
+th,
+tr {
+    border: solid 1px #cdcdcd;
+    padding: 10px;
+
+}
+
+.trGreen {
+    background-color: green;
+    color: #fff;
+
+}
+
+.trRed {
+    background-color: red;
+}
